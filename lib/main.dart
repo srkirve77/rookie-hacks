@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:rookiehacks/bottom_nav_bar.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -12,7 +13,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primaryColor: Colors.blueGrey[400],
+        accentColor: Colors.blueGrey[200],
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: LoginPage(title: 'Flutter Demo Home Page'),
@@ -37,17 +39,18 @@ class LoginPageState extends State<LoginPage> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('Qsafe'),
+          title: Text('QSafe'),
         ),
-        body: Padding(
-            padding: EdgeInsets.all(10),
+        body: 
+          Padding(
+            padding: EdgeInsets.symmetric(horizontal: 10, vertical: 140),
             child: ListView(
               children: <Widget>[
                 Container(
                     alignment: Alignment.center,
                     padding: EdgeInsets.all(10),
                     child: Text(
-                      'Join the queue',
+                      'Join the Queue',
                       style: TextStyle(
                           color: Colors.black,
                           fontWeight: FontWeight.w500,
@@ -93,21 +96,27 @@ class LoginPageState extends State<LoginPage> {
                     padding: EdgeInsets.fromLTRB(10, 0, 10, 0),
                     child: RaisedButton(
                       textColor: Colors.white,
-                      color: Colors.blue,
+                      color: Theme.of(context).primaryColor,
                       child: Text('Login'),
                       onPressed: () {
                         print(nameController.text);
                         print(passwordController.text);
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => MyHomePage(title: 'QSafe')),
+                        );
+                        // add login authentication here
                       },
                     )),
                 Container(
                     child: Row(
                   children: <Widget>[
-                    Text('Don\'\t have an account?'),
+                    Text('Don\'t have an account?'),
                     FlatButton(
-                      textColor: Colors.blue,
+                      textColor: Theme.of(context).primaryColor,
                       child: Text(
-                        'Sign in',
+                        'Sign Up',
                         style: TextStyle(fontSize: 15),
                       ),
                       onPressed: () {
