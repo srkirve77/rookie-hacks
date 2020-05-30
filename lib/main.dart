@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:rookiehacks/bottom_nav_bar.dart';
+import 'bottom_nav_bar.dart';
 
 void main() {
   runApp(MaterialApp(
