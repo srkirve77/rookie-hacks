@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'dart:convert';
 
 class Home extends StatefulWidget {
   @override
@@ -6,20 +7,36 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
+  List data;
   @override
   Widget build(BuildContext context) {
-    return new Scaffold(
-      appBar: AppBar(
-        title: Text('Home'),
-      ),
+    return Scaffold(
+        appBar: AppBar(
+          title: Text('Home'),
+        ),
         body: Center(
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        crossAxisAlignment: CrossAxisAlignment.center,
-        children: <Widget>[
-          Text("Home Page"),
-        ],
-      ),
-    ));
+          child: FutureBuilder(
+              future: DefaultAssetBundle.of(context)
+                  .loadString("assets/stores.json"),
+              builder: (context, snapshot) {
+                // Decode JSON
+                var myData = json.decode(snapshot.data.toString());
+
+                return new ListView.builder(
+                  itemBuilder: (BuildContext context, int index) {
+                    return new Card(
+                      child: new Column(
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        children: <Widget>[
+                          new Text(myData[index]["storeName"]),
+                          new Text(myData[index]["location"]),
+                        ],
+                      ),
+                    );
+                  },
+                  itemCount: myData == null ? 0 : myData.length,
+                );
+              }),
+        ));
   }
 }

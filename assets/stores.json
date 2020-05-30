@@ -1,0 +1,23 @@
+[
+    {
+        "storeName": "Costco",
+        "location": "Chicago",
+        "hours": "Open until 9pm",
+        "image": "assets/images/costo.jpg",
+        "currentLine": "17 shoppers in line"
+    },
+    {
+        "storeName": "Target",
+        "location": "Elgin",
+        "hours": "Opens at 10am",
+        "image": "assets/images/target.jpg",
+        "currentLine": "24 shoppers in line"
+    },
+    {
+        "storeName": "Whole Foods",
+        "location": "Joliet",
+        "hours": "Open until 8pm",
+        "image": "assets/images/wholefoods.jpg",
+        "currentLine": "12 shoppers in line"
+    }
+]
