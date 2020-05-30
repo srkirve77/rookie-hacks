@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:rookiehacks/screens/notifications.dart';
-import 'package:rookiehacks/screens/home.dart';
-import 'package:rookiehacks/screens/profile.dart';
+import 'screens/notifications.dart';
+import 'screens/home.dart';
+import 'screens/profile.dart';
 
 class MyHomePage extends StatefulWidget {
   MyHomePage({Key key, this.title}) : super(key: key);
