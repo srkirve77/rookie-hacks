@@ -1,0 +1,92 @@
+[
+    {
+        "storeName": "Costco",
+        "location": "Chicago",
+        "hours": "Open until 9pm",
+        "image": "images/costco.jpg",
+        "currentLine": 17,
+        "isJoined": false,
+        "waitTime": 14
+    },
+    {
+        "storeName": "Target",
+        "location": "Elgin",
+        "hours": "Opens at 10am",
+        "image": "images/target.jpg",
+        "currentLine": 24,
+        "isJoined": false,
+        "waitTime": 25
+    },
+    {
+        "storeName": "Whole Foods",
+        "location": "Joliet",
+        "hours": "Open until 8pm",
+        "image": "images/wholefoods.jpg",
+        "currentLine": 12,
+        "isJoined": false,
+        "waitTime": 9
+    },
+    {
+        "storeName": "Trader Joe's",
+        "location": "Chicago",
+        "hours": "Opens at 8am",
+        "image": "images/traderjoes.jpg",
+        "currentLine": 23,
+        "isJoined": false,
+        "waitTime": 35
+    },
+    {
+        "storeName": "Whole Foods",
+        "location": "Chicago",
+        "hours": "Open until 9pm",
+        "image": "images/wholefoods2.jpg",
+        "currentLine": 18,
+        "isJoined": false,
+        "waitTime": 11
+    },
+    {
+        "storeName": "Jewel-Osco",
+        "location": "Chicago",
+        "hours": "Open until 10pm",
+        "image": "images/jewelosco.jpg",
+        "currentLine": 6,
+        "isJoined": false,
+        "waitTime": 8
+    },
+    {
+        "storeName": "Fresh Thyme",
+        "location": "Chicago",
+        "hours": "Opens at 8am",
+        "image": "images/freshthyme.jpg",
+        "currentLine": 12,
+        "isJoined": false,
+        "waitTime": 9
+    },
+    {
+        "storeName": "Mariano's",
+        "location": "Aurora",
+        "hours": "Open until 8pm",
+        "image": "images/marianos.jpg",
+        "currentLine": 9,
+        "isJoined": false,
+        "waitTime": 13
+    },
+    {
+        "storeName": "Whole Foods",
+        "location": "Elmhurst",
+        "hours": "Opens 10am",
+        "image": "images/wholefoods3.jpg",
+        "currentLine": 4,
+        "isJoined": false,
+        "waitTime": 7
+    },
+    {
+        "storeName": "Cermak Fresh Market",
+        "location": "Chicago",
+        "hours": "Open until 9pm",
+        "image": "images/cermak.jpg",
+        "currentLine": 14,
+        "isJoined": false,
+        "waitTime": 20
+    }
+]
