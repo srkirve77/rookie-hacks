@@ -97,7 +97,7 @@ class _HomeState extends State<Home> {
                   _storesForDisplay[index].hours),
               trailing: FlatButton(
                   color: (_storesForDisplay[index].isJoined
-                      ? Colors.blue
+                      ? Colors.red[400]
                       : Theme.of(context).primaryColor),
                   textColor: Colors.white,
                   padding: EdgeInsets.all(8),
