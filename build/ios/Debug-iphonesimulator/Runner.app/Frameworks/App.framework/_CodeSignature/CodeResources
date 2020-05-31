@@ -10,7 +10,7 @@
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		mAbKD05L2G/7AxDSEUVcRdK1RmU=
+		49fvMsnME/gr1n0pWZE1lhcT6yQ=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
@@ -22,11 +22,23 @@
 		</data>
 		<key>flutter_assets/assets/stores.json</key>
 		<data>
-		8iQ+dF2G227XIsBbfiY96mMdoEY=
+		sTorn6dT3wxO+h75gFHD3rCZ/pM=
 		</data>
 		<key>flutter_assets/fonts/MaterialIcons-Regular.ttf</key>
 		<data>
 		nIzDzw7hjOThppiX5OleKNAxtqM=
+		</data>
+		<key>flutter_assets/images/costco.jpg</key>
+		<data>
+		LUy8QIugrD38qAXjgaEdLOtkjMg=
+		</data>
+		<key>flutter_assets/images/target.jpg</key>
+		<data>
+		crrBL7s82sXb1b/15wzXeNVyy9Q=
+		</data>
+		<key>flutter_assets/images/wholefoods.jpg</key>
+		<data>
+		fWC+IEXpmZxGzLDlfKnrkktMYKE=
 		</data>
 		<key>flutter_assets/isolate_snapshot_data</key>
 		<data>
@@ -34,7 +46,7 @@
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		FxknKtQR0RFtmp8THZPXQcDr6g8=
+		cNuhz0C5kuup4jLtbqB/Sw8MbTI=
 		</data>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -51,11 +63,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mAbKD05L2G/7AxDSEUVcRdK1RmU=
+			49fvMsnME/gr1n0pWZE1lhcT6yQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			t3N6X/aRGnz1TYoFrp4KmjOSp+jDK/9mCqN9m3GxnjU=
+			BwccMs66Zb7X1lLOoc4urgDOg9VDAsUPtuP4JGvnk/E=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
@@ -84,11 +96,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8iQ+dF2G227XIsBbfiY96mMdoEY=
+			sTorn6dT3wxO+h75gFHD3rCZ/pM=
 			</data>
 			<key>hash2</key>
 			<data>
-			eYoUVRVi3WunDIAPgrVVKYfxsCTTVAPmPHeHva0uvwo=
+			Dc+3Fso73WlnAZhZvRlLiEWqRpD+gpQsJ72A8VXePDs=
 			</data>
 		</dict>
 		<key>flutter_assets/fonts/MaterialIcons-Regular.ttf</key>
@@ -100,6 +112,39 @@
 			<key>hash2</key>
 			<data>
 			Wuh7JiGdsCj8cMnXMpa8jtW4ekzRz359zPE0NyQ7iRE=
+			</data>
+		</dict>
+		<key>flutter_assets/images/costco.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LUy8QIugrD38qAXjgaEdLOtkjMg=
+			</data>
+			<key>hash2</key>
+			<data>
+			ayYeoZM8AShTKLlaCxwTdXdBl1YcOYx8H1G+GWjrL14=
+			</data>
+		</dict>
+		<key>flutter_assets/images/target.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			crrBL7s82sXb1b/15wzXeNVyy9Q=
+			</data>
+			<key>hash2</key>
+			<data>
+			Ov68NvKW422Ui8tr1KhA93w94ju7pZuhVevHyRr5kSM=
+			</data>
+		</dict>
+		<key>flutter_assets/images/wholefoods.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fWC+IEXpmZxGzLDlfKnrkktMYKE=
+			</data>
+			<key>hash2</key>
+			<data>
+			FLedlTgSmK9D11RWt73RcNXy5mHnrjhnu4EA7wHxamo=
 			</data>
 		</dict>
 		<key>flutter_assets/isolate_snapshot_data</key>
@@ -117,11 +162,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FxknKtQR0RFtmp8THZPXQcDr6g8=
+			cNuhz0C5kuup4jLtbqB/Sw8MbTI=
 			</data>
 			<key>hash2</key>
 			<data>
-			Vq8Ghx+9llHO3PNiHKLJq/tSaarUUsp5VxTIAUwjCDc=
+			o3tU2k4zpBO5qnOCDohmOedfBxvRwEqvOVOmQeQCOjA=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
