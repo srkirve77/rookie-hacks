@@ -114,8 +114,7 @@ class _HomeState extends State<Home> {
                             !_storesForDisplay[index].isJoined;
                         if (_storesForDisplay[index].isJoined) {
                           _storesForDisplay[index].currentLine += 1;
-                        }
-                        else {
+                        } else {
                           _storesForDisplay[index].currentLine -= 1;
                         }
                       },
@@ -126,12 +125,25 @@ class _HomeState extends State<Home> {
           Row(
             children: <Widget>[
               Padding(
-                padding: EdgeInsets.fromLTRB(17, 0, 20, 20),
-                child: Text(
-                    (_storesForDisplay[index].currentLine).toString() +
-                        " shoppers in line",
-                    style: TextStyle(color: Colors.blue)),
-              ),
+                  padding: EdgeInsets.fromLTRB(17, 0, 20, 20),
+                  child: Row(
+                    children: <Widget>[
+                      Text(
+                        (_storesForDisplay[index].currentLine).toString() +
+                            " shoppers in line",
+                        style: TextStyle(
+                            color: Colors.blue, fontWeight: FontWeight.bold),
+                      ),
+                      Container(
+                        width: 210,
+                        child: Text(
+                            "Wait Time: " +
+                                _storesForDisplay[index].waitTime.toString() +
+                                " minutes",
+                            textAlign: TextAlign.end),
+                      ),
+                    ],
+                  )),
             ],
           )
         ],

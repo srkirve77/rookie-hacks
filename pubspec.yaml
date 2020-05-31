@@ -47,10 +47,16 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - stores.json
     - images/costco.jpg
     - images/target.jpg
     - images/wholefoods.jpg
+    - images/wholefoods2.jpg
+    - images/wholefoods3.jpg
+    - images/cermak.jpg
+    - images/traderjoes.jpg
+    - images/freshthyme.jpg
+    - images/marianos.jpg
+    - images/jewelosco.jpg
 
   
   # An image asset can refer to one or more resolution-specific "variants", see
