@@ -3,21 +3,24 @@
         "storeName": "Costco",
         "location": "Chicago",
         "hours": "Open until 9pm",
-        "image": "assets/images/costo.jpg",
-        "currentLine": "17 shoppers in line"
+        "image": "images/costco.jpg",
+        "currentLine": 17,
+        "isJoined": false
     },
     {
         "storeName": "Target",
         "location": "Elgin",
         "hours": "Opens at 10am",
-        "image": "assets/images/target.jpg",
-        "currentLine": "24 shoppers in line"
+        "image": "images/target.jpg",
+        "currentLine": 24,
+        "isJoined": false
     },
     {
         "storeName": "Whole Foods",
         "location": "Joliet",
         "hours": "Open until 8pm",
-        "image": "assets/images/wholefoods.jpg",
-        "currentLine": "12 shoppers in line"
+        "image": "images/wholefoods.jpg",
+        "currentLine": 12,
+        "isJoined": false
     }
 ]

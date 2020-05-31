@@ -1,0 +1,14 @@
+Future<List<Store>> _getStores() {
+
+  }
+
+  class Store {
+  final String storeName;
+  final String location;
+  final String hours;
+  final String image;
+  final int currentLine;
+  final bool isJoined;
+
+  User(this.storeName, this.location, this.hours, this.image, this.currentLine, this.isJoined);
+}
