@@ -10,7 +10,10 @@ A few resources to get you started if this is your first Flutter project:
 
 - Android studio
 - Flutter
-For help getting started with Flutter,
+
+
+
+For help getting started with Qsafe,
  - Create a new Project through flutter in Android studio.
  - Download our project.
  - Replace the lib folder of Qsafe with your newly created projects's lib folder
